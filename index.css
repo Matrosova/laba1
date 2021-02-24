@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(248, 134, 134, 0.5);
+}
+.hh1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.justy {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 128, 128, 0.644);
+}
+
+.pic1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pic3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic4 {
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.pic5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-pic {
+    order: -1;
+}
+
+.pic6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mini-pic2 {
+    align-self: flex-start;
+}
+
+.pic7 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.pic8 {
+    display: flex;
+}
+
+.mini-pic3 {
+    flex-grow: 1;
+}
+
+.mini-pic4 {
+    flex-shrink: 1;
+}
+
+.mini-pic5 {
+    flex-basis: 50%;
+}
