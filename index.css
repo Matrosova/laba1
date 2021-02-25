@@ -74,3 +74,8 @@ body {
 .mini-pic5 {
     flex-basis: 50%;
 }
+
+.pic9 {
+    display: flex;
+    flex : 1 1 auto;.
+}
